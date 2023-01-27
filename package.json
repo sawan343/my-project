@@ -1,0 +1,29 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "Learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "Webpack .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawan343/my-project.git"
+  },
+  "author": "Sawan Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sawan343/my-project/issues"
+  },
+  "homepage": "https://github.com/sawan343/my-project#readme",
+  "dependencies": {
+    "watcher": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}

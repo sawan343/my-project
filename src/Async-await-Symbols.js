@@ -48,6 +48,7 @@ const p = new Promise((res, rej) => {
 
   async function awaitReturn() {
     await "Testing********";
+    
   }
   console.log('***p console.log( awaitReturn())');
   const resultAwaitReturn = () => {
